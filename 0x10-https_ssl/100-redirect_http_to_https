@@ -65,5 +65,5 @@ backend le-certbot-backend
 
 backend www-backend
    balance roundrobin
-   server 59637-web-01 107.23.106.158:80 check
-   server 59637-web-02 35.175.132.106:80 check
+   server 83020-web-01 54.90.28.159 check
+   server 83020-web-02 54.197.121.241 check
